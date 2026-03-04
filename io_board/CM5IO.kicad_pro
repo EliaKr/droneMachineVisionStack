@@ -511,6 +511,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -882,8 +883,8 @@
       "CM5_GPIO ( Ethernet, GPIO, SDCARD)"
     ],
     [
-      "00000000-0000-0000-0000-00005ed4bb5b",
-      "PCIe-M2"
+      "1a000998-d290-4943-9ac8-07307b2fbf9f",
+      "CM5_ExtraIO"
     ]
   ],
   "text_variables": {}
