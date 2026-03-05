@@ -7,4 +7,5 @@
   (lib (name "BM08B-GHS-TBT_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/BM08B-GHS-TBT_LF__SN_/BM08B-GHS-TBT_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "FH12-22S-0_5SVA_54_")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/FH12-22S-0.5SVA_54_/FH12-22S-0_5SVA_54_.kicad_sym")(options "")(descr ""))
   (lib (name "USB1135-15-9-L-B")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/USB1135-15-9-L-B/USB1135-15-9-L-B.kicad_sym")(options "")(descr ""))
+  (lib (name "10159561-200121RLF")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/10159561-200121RLF/10159561-200121RLF.kicad_sym")(options "")(descr ""))
 )
