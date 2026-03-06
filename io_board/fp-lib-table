@@ -8,4 +8,7 @@
   (lib (name "FH12-22S-0.5SVA_54_")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/FH12-22S-0.5SVA_54_")(options "")(descr ""))
   (lib (name "USB1135-15-9-L-B")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/USB1135-15-9-L-B")(options "")(descr ""))
   (lib (name "10159561-200121RLF")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/10159561-200121RLF")(options "")(descr ""))
+  (lib (name "DFE252012P-1R0M=P2")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/DFE252012P-1R0M=P2")(options "")(descr ""))
+  (lib (name "TPS631000DRLR")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/TPS631000DRLR")(options "")(descr ""))
+  (lib (name "MF-USHT125KX_12-2")(type "KiCad")(uri "${KIPRJMOD}/extra_lib/MF-USHT125KX_12-2")(options "")(descr ""))
 )

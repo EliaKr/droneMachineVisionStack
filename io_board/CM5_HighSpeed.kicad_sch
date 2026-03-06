@@ -5692,6 +5692,17 @@
 		)
 		(uuid "31792646-c7be-4527-8298-f8a25794399a")
 	)
+	(text "AI Accelerator PCIe"
+		(exclude_from_sim no)
+		(at 247.65 20.574 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "515d6913-8e12-4624-9f1b-8190205310f9")
+	)
 	(text "CSI Connectors"
 		(exclude_from_sim no)
 		(at 133.858 19.05 0)
@@ -5705,7 +5716,7 @@
 	)
 	(text "Jumpers to be fitted if DPHY1 is used\n"
 		(exclude_from_sim no)
-		(at 217.17 138.176 0)
+		(at 214.63 159.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5726,7 +5737,7 @@
 		(uuid "c7aa973f-9a43-402a-907c-ceac197a1829")
 	)
 	(junction
-		(at 209.55 129.54)
+		(at 207.01 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02a8eb8a-3a4b-4bd3-8307-e2908a216204")
@@ -5798,7 +5809,7 @@
 		(uuid "4c8704fa-310a-4c01-8dc1-2b7e2727fea0")
 	)
 	(junction
-		(at 201.93 114.3)
+		(at 199.39 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ecfec3d-00a6-4495-8e8e-d3324ee51876")
@@ -5924,7 +5935,7 @@
 		(uuid "b4675fcd-90dd-499b-8feb-46b51a88378c")
 	)
 	(junction
-		(at 201.93 132.08)
+		(at 199.39 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e5a964-564f-428b-9d0a-936e6dc75147")
@@ -6031,7 +6042,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 132.08) (xy 186.69 132.08)
+			(xy 177.8 153.67) (xy 184.15 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6111,7 +6122,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 201.93 132.08)
+			(xy 199.39 146.05) (xy 199.39 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6251,7 +6262,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 129.54) (xy 186.69 129.54)
+			(xy 177.8 151.13) (xy 184.15 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6301,7 +6312,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 132.08) (xy 201.93 132.08)
+			(xy 196.85 153.67) (xy 199.39 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6401,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 129.54) (xy 209.55 129.54)
+			(xy 196.85 151.13) (xy 207.01 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6771,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 114.3) (xy 201.93 114.3)
+			(xy 189.23 135.89) (xy 199.39 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7049,6 +7060,16 @@
 		)
 		(uuid "7df9ce6f-7f38-4582-a049-7f92faf1abc9")
 	)
+	(polyline
+		(pts
+			(xy 173.99 123.19) (xy 281.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8093976b-7645-4071-b1e6-6a59e1a59568")
+	)
 	(wire
 		(pts
 			(xy 99.06 55.88) (xy 101.6 55.88)
@@ -7151,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 129.54) (xy 218.44 129.54)
+			(xy 207.01 151.13) (xy 215.9 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7381,7 +7402,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 124.46) (xy 209.55 129.54)
+			(xy 207.01 146.05) (xy 207.01 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7571,7 +7592,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 132.08) (xy 218.44 132.08)
+			(xy 199.39 153.67) (xy 215.9 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7629,9 +7650,19 @@
 		)
 		(uuid "bc204c79-0619-4b16-889d-335bfdd71ce0")
 	)
+	(polyline
+		(pts
+			(xy 173.99 15.24) (xy 281.94 15.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bd1a99f6-5eec-4c4a-997c-97b043c3f56d")
+	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 209.55 114.3)
+			(xy 199.39 135.89) (xy 207.01 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7789,6 +7820,16 @@
 		)
 		(uuid "cd48b13f-c989-4ac1-a7f0-053afcd77527")
 	)
+	(polyline
+		(pts
+			(xy 173.99 15.24) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "cecfac60-fa8c-41dc-aac9-096f9bc607dc")
+	)
 	(wire
 		(pts
 			(xy 151.13 76.2) (xy 134.62 76.2)
@@ -7881,7 +7922,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 209.55 116.84)
+			(xy 207.01 135.89) (xy 207.01 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7908,6 +7949,16 @@
 			(type solid)
 		)
 		(uuid "dbbbcbf5-ed09-4c20-902c-70f108158aba")
+	)
+	(polyline
+		(pts
+			(xy 281.94 15.24) (xy 281.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "dd121cc7-94e3-484e-a42c-11d473d3caee")
 	)
 	(wire
 		(pts
@@ -8091,7 +8142,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 201.93 116.84)
+			(xy 199.39 135.89) (xy 199.39 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8380,7 +8431,7 @@
 		(uuid "3388a811-b444-4ecc-a564-b22a1b731ab4")
 	)
 	(label "ID_SD"
-		(at 186.055 132.08 180)
+		(at 183.515 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8620,7 +8671,7 @@
 		(uuid "6e508bf2-c65e-4107-867d-a3cf9a86c69e")
 	)
 	(label "ID_SC"
-		(at 186.055 129.54 180)
+		(at 183.515 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8640,7 +8691,7 @@
 		(uuid "6fddc16f-ccc1-4ade-884c-d6efda461da8")
 	)
 	(label "SDA1"
-		(at 217.805 132.08 180)
+		(at 215.265 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8710,7 +8761,7 @@
 		(uuid "83d9db3e-661a-47bf-b26c-99313ad8bac9")
 	)
 	(label "SCL1"
-		(at 217.805 129.54 180)
+		(at 215.265 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9070,7 +9121,7 @@
 		(uuid "f6a5cab3-78e5-4acf-8c67-f401df2846d0")
 	)
 	(label "GPIO_VREF"
-		(at 192.405 114.3 0)
+		(at 189.865 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9132,7 +9183,7 @@
 	)
 	(hierarchical_label "ID_SD"
 		(shape input)
-		(at 180.34 132.08 180)
+		(at 177.8 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9187,7 +9238,7 @@
 	)
 	(hierarchical_label "ID_SC"
 		(shape input)
-		(at 180.34 129.54 180)
+		(at 177.8 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9253,7 +9304,7 @@
 	)
 	(hierarchical_label "GPIO_VREF"
 		(shape input)
-		(at 191.77 114.3 180)
+		(at 189.23 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9612,7 +9663,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 201.93 120.65 0)
+		(at 199.39 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9620,7 +9671,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3423d2")
 		(property "Reference" "R?"
-			(at 197.358 118.745 0)
+			(at 194.818 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9680,7 @@
 			)
 		)
 		(property "Value" "2.2K 1%"
-			(at 192.278 120.65 0)
+			(at 189.738 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +9689,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 200.152 120.65 90)
+			(at 197.612 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9698,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9716,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +9725,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +9734,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +9743,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,7 +9752,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9710,7 +9761,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 201.93 120.65 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +9786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 120.65 0)
+		(at 207.01 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9743,7 +9794,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d343651")
 		(property "Reference" "R?"
-			(at 211.328 118.745 0)
+			(at 208.788 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +9803,7 @@
 			)
 		)
 		(property "Value" "2.2K 1%"
-			(at 211.328 120.65 0)
+			(at 208.788 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +9812,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 207.772 120.65 90)
+			(at 205.232 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +9821,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +9830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,7 +9839,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +9848,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9857,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +9866,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,7 +9875,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,7 +9884,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 209.55 120.65 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10959,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 191.77 129.54 0)
+		(at 189.23 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10916,7 +10967,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e67855b")
 		(property "Reference" "J?"
-			(at 189.103 124.333 0)
+			(at 186.563 145.923 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +10975,7 @@
 			)
 		)
 		(property "Value" "THD-02-R"
-			(at 193.04 126.3396 0)
+			(at 190.5 147.9296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,7 +10983,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10992,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.toby.co.uk/uploads/publications/1673.pdf"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,7 +11001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +11010,7 @@
 			)
 		)
 		(property "Field4" "Toby"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +11019,7 @@
 			)
 		)
 		(property "Field5" "THD-02-R"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +11028,7 @@
 			)
 		)
 		(property "Field6" "151-604-425-761"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +11037,7 @@
 			)
 		)
 		(property "Field7" "EDAC"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +11046,7 @@
 			)
 		)
 		(property "Field8" "UCON00791"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11055,7 @@
 			)
 		)
 		(property "Part Description" "PinHeader_2x02_P2.54mm_Vertical"
-			(at 191.77 129.54 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
