@@ -7,7 +7,7 @@
 	(title_block
 		(title "Compute Module 5 IO Board - CM5 - Highspeed")
 		(rev "1")
-		(company "Copyright © 2024 Raspberry Pi Ltd.")
+		(company "Copyright © 2024 Raspberry Pi Ltd. & Ilias Kringos")
 		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
@@ -5681,6 +5681,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Read more at:\nhttps://pip-assets.raspberrypi.com/categories/\n892-raspberry-pi-5/documents/\nRP-008298-DS-1-pcie-connector-standard.pdf"
+		(exclude_from_sim no)
+		(at 256.286 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "22e30325-a365-4091-a31c-3e4322e9895e")
+	)
+	(text "F31W-1A7H1-11016 \nreplacement for part\n62674-161120ALF\ndue to obsolescence \nand limited supply.\n\nCross-check\nfootprint and pins."
+		(exclude_from_sim no)
+		(at 189.484 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "29cca450-2170-4ec9-a903-cd44420940e5")
+	)
 	(text "Current Limit switch"
 		(exclude_from_sim no)
 		(at 68.58 166.37 0)
@@ -8280,6 +8302,16 @@
 		)
 		(uuid "058e77a4-10af-4bc8-a984-5984d3bbee4c")
 	)
+	(label "PCIE_nWAKE"
+		(at 31.75 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08ee4eeb-7a94-405f-935b-4d27893d7493")
+	)
 	(label "DPHY0_D2_N"
 		(at 134.62 50.8 0)
 		(effects
@@ -8299,6 +8331,16 @@
 			(justify left bottom)
 		)
 		(uuid "0b43a8fb-b3d3-4444-a4b0-cf952c07dcfe")
+	)
+	(label "PCIE_RX_P"
+		(at 31.75 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c5c6146-3b36-483a-839e-34086ee2ec53")
 	)
 	(label "USB3-1-D_N"
 		(at 102.87 106.68 0)
@@ -8339,6 +8381,16 @@
 			(justify right bottom)
 		)
 		(uuid "18e95a1d-9d1d-4b93-8e4c-2d03c344acc0")
+	)
+	(label "PCIE_CLK_N"
+		(at 31.75 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "191146a4-bc36-4bca-82b8-186c673a9a13")
 	)
 	(label "DPHY1_D1_P"
 		(at 134.62 109.22 0)
@@ -8640,6 +8692,16 @@
 		)
 		(uuid "67d6d490-a9a4-4ec7-8744-7c7abc821282")
 	)
+	(label "PCIE_RX_N"
+		(at 31.75 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6988288e-088c-49c4-bc09-d889132ea088")
+	)
 	(label "HDMI0_CK_N"
 		(at 21.59 137.16 0)
 		(effects
@@ -8680,6 +8742,16 @@
 		)
 		(uuid "6f1df130-2dea-4088-a91e-ad43e1729ef9")
 	)
+	(label "PCIE_TX_N"
+		(at 31.75 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fcad5c4-c8d2-41d4-8118-1d970436d915")
+	)
 	(label "DPHY1_D3_P"
 		(at 134.62 132.08 0)
 		(effects
@@ -8719,6 +8791,16 @@
 			(justify right bottom)
 		)
 		(uuid "7a6d9a4e-fe6a-4427-9f0c-a10fd3ceb923")
+	)
+	(label "PCIE_PWR_EN"
+		(at 31.75 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d92e2e8-d984-4b97-9515-09ccb4352536")
 	)
 	(label "DPHY1_D0_N"
 		(at 134.62 99.06 0)
@@ -9000,6 +9082,16 @@
 		)
 		(uuid "c860c4e9-3ddd-4065-857c-b9aedc01e6ad")
 	)
+	(label "PCIE_nCLKREQ"
+		(at 31.75 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9e6ac34-dcf4-4f4d-b3cc-c6f662fe6fcd")
+	)
 	(label "USB3-0-RX_P"
 		(at 20.32 60.96 0)
 		(effects
@@ -9050,6 +9142,16 @@
 		)
 		(uuid "d91b4df3-08ca-4c95-92de-3004566cf2e7")
 	)
+	(label "PCIE_CLK_P"
+		(at 31.75 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd1263ed-c838-4b03-93ac-33655152e0b9")
+	)
 	(label "DPHY0_C_P"
 		(at 134.62 45.72 0)
 		(effects
@@ -9099,6 +9201,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed9596e5-f4f2-4fc2-bb34-16ad21b3b120")
+	)
+	(label "PCIE_TX_P"
+		(at 31.75 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f049736a-f5d5-4fcd-843f-f81bf01836cb")
 	)
 	(label "+3.3v"
 		(at 128.27 137.16 0)
@@ -9192,28 +9304,6 @@
 		)
 		(uuid "04695d30-c05f-494d-ac30-9b9cf2aef624")
 	)
-	(hierarchical_label "PCIE_PWR_EN"
-		(shape output)
-		(at 31.75 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1dacd626-a559-4363-9eb3-77dde5d16024")
-	)
-	(hierarchical_label "PCIE_CLK_P"
-		(shape output)
-		(at 31.75 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25247d0c-5910-484b-9651-5750d422a450")
-	)
 	(hierarchical_label "CAM_GPIO0"
 		(shape input)
 		(at 143.51 66.04 180)
@@ -9224,17 +9314,6 @@
 			(justify right)
 		)
 		(uuid "3bf0f47e-2fb0-4931-8f02-fb83a50ab482")
-	)
-	(hierarchical_label "PCIE_RX_N"
-		(shape input)
-		(at 31.75 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4aee84d1-0859-48ac-a053-5a981ee1b24a")
 	)
 	(hierarchical_label "ID_SC"
 		(shape input)
@@ -9257,28 +9336,6 @@
 			(justify right)
 		)
 		(uuid "5290e0d7-1f24-4c0b-91ff-28c5a304ab9a")
-	)
-	(hierarchical_label "PCIE_nCLKREQ"
-		(shape input)
-		(at 31.75 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59142adb-6887-41fc-851e-9a7f51511d60")
-	)
-	(hierarchical_label "PCIE_RX_P"
-		(shape input)
-		(at 31.75 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5fc4054a-b929-433e-a947-747fb7ed003d")
 	)
 	(hierarchical_label "+3.3v"
 		(shape input)
@@ -9324,39 +9381,6 @@
 		)
 		(uuid "69f75991-c8c0-49a9-aed8-daa6ca9a5d73")
 	)
-	(hierarchical_label "PCIE_TX_P"
-		(shape output)
-		(at 31.75 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "811f5389-c208-4640-ab1a-b454491bb330")
-	)
-	(hierarchical_label "PCIE_nWAKE"
-		(shape input)
-		(at 31.75 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8b35311-4f8b-4438-aa47-dca2f66d55c9")
-	)
-	(hierarchical_label "PCIE_CLK_N"
-		(shape output)
-		(at 31.75 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6f041a4-3ea0-418b-94a2-50c938beafa2")
-	)
 	(hierarchical_label "PCIE_nRST"
 		(shape output)
 		(at 105.41 35.56 0)
@@ -9378,17 +9402,6 @@
 			(justify right)
 		)
 		(uuid "d34b6539-c34f-49ef-9bdb-01215693557e")
-	)
-	(hierarchical_label "PCIE_TX_N"
-		(shape output)
-		(at 31.75 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4876469-b949-49ce-b8fe-43cb458692a4")
 	)
 	(hierarchical_label "SDA0"
 		(shape input)

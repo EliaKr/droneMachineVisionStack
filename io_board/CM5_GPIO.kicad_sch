@@ -7,7 +7,7 @@
 	(title_block
 		(title "Compute Module 5 IO Board - GPIO - Ethernet")
 		(rev "1")
-		(company "Copyright © 2024 Raspberry Pi Ltd.")
+		(company "Copyright © 2024 Raspberry Pi Ltd. & Ilias Kringos")
 		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols

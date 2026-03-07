@@ -7,7 +7,7 @@
 	(title_block
 		(title "Compute Module 5 IO Board - Top Level")
 		(rev "1")
-		(company "Copyright © 2024 Raspberry Pi Ltd.")
+		(company "Copyright © 2024 Raspberry Pi Ltd. & Ilias Kringos")
 		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
@@ -1503,7 +1503,7 @@
 		)
 		(uuid "83a16201-aa87-4b79-ab8b-ea9be47b79ef")
 	)
-	(text "Connectors\n-------\nCSI/DSI 0\nCSI/DSI 1"
+	(text "Connectors\n-------\nCSI/DSI 0\nCSI/DSI 1\nPCIe"
 		(exclude_from_sim no)
 		(at 148.59 58.42 0)
 		(effects
@@ -4018,86 +4018,6 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE_CLK_P" output
-			(at 186.69 57.15 0)
-			(uuid "fe8d9267-7834-48d6-a191-c8724b2ee78d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_CLK_N" output
-			(at 186.69 59.69 0)
-			(uuid "0b21a65d-d20b-411e-920a-75c343ac5136")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_TX_P" output
-			(at 186.69 43.18 0)
-			(uuid "3cd1bda0-18db-417d-b581-a0c50623df68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_TX_N" output
-			(at 186.69 45.72 0)
-			(uuid "d57dcfee-5058-4fc2-a68b-05f9a48f685b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nRST" output
-			(at 186.69 64.77 0)
-			(uuid "03c52831-5dc5-43c5-a442-8d23643b46fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RX_P" input
-			(at 186.69 50.8 0)
-			(uuid "a1823eb2-fb0d-4ed8-8b96-04184ac3a9d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RX_N" input
-			(at 186.69 53.34 0)
-			(uuid "29e78086-2175-405e-9ba3-c48766d2f50c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nCLKREQ" input
-			(at 186.69 68.58 0)
-			(uuid "94a873dc-af67-4ef9-8159-1f7c93eeb3d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+3.3v" input
 			(at 129.54 50.8 180)
 			(uuid "4c8eb964-bdf4-44de-90e9-e2ab82dd5313")
@@ -4126,26 +4046,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "PCIE_PWR_EN" output
-			(at 186.69 72.39 0)
-			(uuid "e445000d-94a3-4ed1-b023-6aae972d0a39")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nWAKE" input
-			(at 186.69 76.2 0)
-			(uuid "31cb0f66-393a-491f-95aa-c50644299a5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "CAM_GPIO0" input
